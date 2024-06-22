@@ -55,9 +55,9 @@ Partial Class FORM1
         Me.VIEW_BTN = New System.Windows.Forms.Button()
         Me.TxtCategory2 = New System.Windows.Forms.TextBox()
         Me.txtName2 = New System.Windows.Forms.TextBox()
-        Me.txt = New System.Windows.Forms.TextBox()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.txtBrand2 = New System.Windows.Forms.TextBox()
+        Me.txtBranch2 = New System.Windows.Forms.TextBox()
+        Me.txtSizes2 = New System.Windows.Forms.TextBox()
         Me.VIEW_BTN_USER = New System.Windows.Forms.Button()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
@@ -114,11 +114,11 @@ Partial Class FORM1
         Me.GroupBox1.Controls.Add(Me.Label12)
         Me.GroupBox1.Controls.Add(Me.Label9)
         Me.GroupBox1.Controls.Add(Me.Label8)
-        Me.GroupBox1.Controls.Add(Me.TextBox1)
-        Me.GroupBox1.Controls.Add(Me.TextBox2)
+        Me.GroupBox1.Controls.Add(Me.txtBranch2)
+        Me.GroupBox1.Controls.Add(Me.txtSizes2)
         Me.GroupBox1.Controls.Add(Me.DataGridView2)
         Me.GroupBox1.Controls.Add(Me.Label1)
-        Me.GroupBox1.Controls.Add(Me.txt)
+        Me.GroupBox1.Controls.Add(Me.txtBrand2)
         Me.GroupBox1.Controls.Add(Me.TxtCategory2)
         Me.GroupBox1.Controls.Add(Me.txtName2)
         Me.GroupBox1.Controls.Add(Me.VIEW_BTN_USER)
@@ -380,26 +380,26 @@ Partial Class FORM1
         Me.txtName2.Size = New System.Drawing.Size(295, 20)
         Me.txtName2.TabIndex = 13
         '
-        'txt
+        'txtBrand2
         '
-        Me.txt.Location = New System.Drawing.Point(123, 199)
-        Me.txt.Name = "txt"
-        Me.txt.Size = New System.Drawing.Size(295, 20)
-        Me.txt.TabIndex = 15
+        Me.txtBrand2.Location = New System.Drawing.Point(123, 199)
+        Me.txtBrand2.Name = "txtBrand2"
+        Me.txtBrand2.Size = New System.Drawing.Size(295, 20)
+        Me.txtBrand2.TabIndex = 15
         '
-        'TextBox1
+        'txtBranch2
         '
-        Me.TextBox1.Location = New System.Drawing.Point(561, 183)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(295, 20)
-        Me.TextBox1.TabIndex = 17
+        Me.txtBranch2.Location = New System.Drawing.Point(561, 183)
+        Me.txtBranch2.Name = "txtBranch2"
+        Me.txtBranch2.Size = New System.Drawing.Size(295, 20)
+        Me.txtBranch2.TabIndex = 17
         '
-        'TextBox2
+        'txtSizes2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(561, 154)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(295, 20)
-        Me.TextBox2.TabIndex = 16
+        Me.txtSizes2.Location = New System.Drawing.Point(561, 154)
+        Me.txtSizes2.Name = "txtSizes2"
+        Me.txtSizes2.Size = New System.Drawing.Size(295, 20)
+        Me.txtSizes2.TabIndex = 16
         '
         'VIEW_BTN_USER
         '
@@ -515,9 +515,9 @@ Partial Class FORM1
     Friend WithEvents UNDO_DELETE_BTN As Button
     Friend WithEvents txtName2 As TextBox
     Friend WithEvents TxtCategory2 As TextBox
-    Friend WithEvents txt As TextBox
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents txtBrand2 As TextBox
+    Friend WithEvents txtBranch2 As TextBox
+    Friend WithEvents txtSizes2 As TextBox
     Friend WithEvents VIEW_BTN_USER As Button
     Friend WithEvents Label13 As Label
     Friend WithEvents Label14 As Label

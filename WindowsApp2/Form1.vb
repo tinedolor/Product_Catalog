@@ -264,7 +264,7 @@ Public Class FORM1
             conn.Open()
             cmd = conn.CreateCommand()
             cmd.CommandType = CommandType.Text
-            cmd.CommandText = "SELECT * FROM PRODUCTS WHERE ALL_NAME = '" + txtName2.Text.Trim() + "' OR ALL_CATEGORY = '" + TxtCategory2.Text.Trim() + "' OR ALL_BRAND = '" + txt.Text.Trim() + "'"
+            cmd.CommandText = "SELECT * FROM PRODUCTS WHERE ALL_NAME = '" + txtName2.Text.Trim() + "' OR ALL_CATEGORY = '" + TxtCategory2.Text.Trim() + "' OR ALL_BRAND = '" + txtBrand2.Text.Trim() + "' OR ALL_SIZES = '" + txtSizes2.Text.Trim() + "' OR ALL_BRANCHES = '" + txtBranch2.Text + "'"
             cmd.ExecuteNonQuery()
             dt = New DataTable()
             da = New OleDbDataAdapter(cmd)
