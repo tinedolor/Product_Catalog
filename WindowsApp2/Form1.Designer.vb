@@ -39,14 +39,12 @@ Partial Class FORM1
         Me.RESET_BTN = New System.Windows.Forms.Button()
         Me.DELETE_BTN = New System.Windows.Forms.Button()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        Me.txtSearchh = New System.Windows.Forms.TextBox()
         Me.txtSize = New System.Windows.Forms.TextBox()
         Me.txtBranch = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
-        Me.SEARCH = New System.Windows.Forms.Label()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.Label11 = New System.Windows.Forms.Label()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
@@ -125,7 +123,7 @@ Partial Class FORM1
         Me.GroupBox1.Controls.Add(Me.Label3)
         Me.GroupBox1.Controls.Add(Me.Button1)
         Me.GroupBox1.Controls.Add(Me.SEARCH_BUTTON_USER)
-        Me.GroupBox1.Location = New System.Drawing.Point(12, 12)
+        Me.GroupBox1.Location = New System.Drawing.Point(16, 12)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(1085, 600)
         Me.GroupBox1.TabIndex = 0
@@ -231,13 +229,6 @@ Partial Class FORM1
         Me.DataGridView1.Size = New System.Drawing.Size(1063, 255)
         Me.DataGridView1.TabIndex = 20
         '
-        'txtSearchh
-        '
-        Me.txtSearchh.Location = New System.Drawing.Point(711, 105)
-        Me.txtSearchh.Name = "txtSearchh"
-        Me.txtSearchh.Size = New System.Drawing.Size(316, 20)
-        Me.txtSearchh.TabIndex = 24
-        '
         'txtSize
         '
         Me.txtSize.Location = New System.Drawing.Point(657, 197)
@@ -288,15 +279,6 @@ Partial Class FORM1
         Me.Label7.TabIndex = 27
         Me.Label7.Text = "PRODUCT CATEGORY"
         '
-        'SEARCH
-        '
-        Me.SEARCH.AutoSize = True
-        Me.SEARCH.Location = New System.Drawing.Point(654, 112)
-        Me.SEARCH.Name = "SEARCH"
-        Me.SEARCH.Size = New System.Drawing.Size(51, 13)
-        Me.SEARCH.TabIndex = 31
-        Me.SEARCH.Text = "SEARCH"
-        '
         'Label10
         '
         Me.Label10.AutoSize = True
@@ -321,7 +303,6 @@ Partial Class FORM1
         Me.GroupBox2.Controls.Add(Me.SEARCH_BTN)
         Me.GroupBox2.Controls.Add(Me.Label11)
         Me.GroupBox2.Controls.Add(Me.Label10)
-        Me.GroupBox2.Controls.Add(Me.SEARCH)
         Me.GroupBox2.Controls.Add(Me.VIEW_BTN)
         Me.GroupBox2.Controls.Add(Me.DataGridView1)
         Me.GroupBox2.Controls.Add(Me.Label2)
@@ -330,7 +311,6 @@ Partial Class FORM1
         Me.GroupBox2.Controls.Add(Me.txtSize)
         Me.GroupBox2.Controls.Add(Me.UPDATE_BTN)
         Me.GroupBox2.Controls.Add(Me.txtBranch)
-        Me.GroupBox2.Controls.Add(Me.txtSearchh)
         Me.GroupBox2.Controls.Add(Me.ADD_BTN)
         Me.GroupBox2.Controls.Add(Me.DELETE_BTN)
         Me.GroupBox2.Location = New System.Drawing.Point(16, 8)
@@ -499,14 +479,12 @@ Partial Class FORM1
     Friend WithEvents RESET_BTN As Button
     Friend WithEvents DELETE_BTN As Button
     Friend WithEvents DataGridView1 As DataGridView
-    Friend WithEvents txtSearchh As TextBox
     Friend WithEvents txtSize As TextBox
     Friend WithEvents txtBranch As TextBox
     Friend WithEvents Label4 As Label
     Friend WithEvents Label5 As Label
     Friend WithEvents Label6 As Label
     Friend WithEvents Label7 As Label
-    Friend WithEvents SEARCH As Label
     Friend WithEvents Label10 As Label
     Friend WithEvents Label11 As Label
     Friend WithEvents GroupBox2 As GroupBox
