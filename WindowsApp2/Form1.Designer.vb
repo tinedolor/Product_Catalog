@@ -27,8 +27,19 @@ Partial Class FORM1
         Me.ADMINBUTTON = New System.Windows.Forms.Button()
         Me.SEARCH_BUTTON_USER = New System.Windows.Forms.Button()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.Label14 = New System.Windows.Forms.Label()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.txtBranch2 = New System.Windows.Forms.TextBox()
+        Me.txtSizes2 = New System.Windows.Forms.TextBox()
         Me.DataGridView2 = New System.Windows.Forms.DataGridView()
+        Me.txtBrand2 = New System.Windows.Forms.TextBox()
+        Me.TxtCategory2 = New System.Windows.Forms.TextBox()
+        Me.txtName2 = New System.Windows.Forms.TextBox()
+        Me.VIEW_BTN_USER = New System.Windows.Forms.Button()
+        Me.Label3 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.txtName = New System.Windows.Forms.TextBox()
         Me.txtID = New System.Windows.Forms.TextBox()
@@ -51,17 +62,7 @@ Partial Class FORM1
         Me.UNDO_DELETE_BTN = New System.Windows.Forms.Button()
         Me.SEARCH_BTN = New System.Windows.Forms.Button()
         Me.VIEW_BTN = New System.Windows.Forms.Button()
-        Me.TxtCategory2 = New System.Windows.Forms.TextBox()
-        Me.txtName2 = New System.Windows.Forms.TextBox()
-        Me.txtBrand2 = New System.Windows.Forms.TextBox()
-        Me.txtBranch2 = New System.Windows.Forms.TextBox()
-        Me.txtSizes2 = New System.Windows.Forms.TextBox()
-        Me.VIEW_BTN_USER = New System.Windows.Forms.Button()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.Label9 = New System.Windows.Forms.Label()
-        Me.Label12 = New System.Windows.Forms.Label()
-        Me.Label13 = New System.Windows.Forms.Label()
-        Me.Label14 = New System.Windows.Forms.Label()
+        Me.txtSearchh = New System.Windows.Forms.TextBox()
         Me.GroupBox1.SuspendLayout()
         CType(Me.DataGridView2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -123,11 +124,108 @@ Partial Class FORM1
         Me.GroupBox1.Controls.Add(Me.Label3)
         Me.GroupBox1.Controls.Add(Me.Button1)
         Me.GroupBox1.Controls.Add(Me.SEARCH_BUTTON_USER)
-        Me.GroupBox1.Location = New System.Drawing.Point(16, 12)
+        Me.GroupBox1.Location = New System.Drawing.Point(12, 12)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(1085, 600)
         Me.GroupBox1.TabIndex = 0
         Me.GroupBox1.TabStop = False
+        '
+        'Label13
+        '
+        Me.Label13.AutoSize = True
+        Me.Label13.Location = New System.Drawing.Point(449, 187)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(92, 13)
+        Me.Label13.TabIndex = 23
+        Me.Label13.Text = "ENTER BRANCH"
+        '
+        'Label14
+        '
+        Me.Label14.AutoSize = True
+        Me.Label14.Location = New System.Drawing.Point(449, 160)
+        Me.Label14.Name = "Label14"
+        Me.Label14.Size = New System.Drawing.Size(74, 13)
+        Me.Label14.TabIndex = 22
+        Me.Label14.Text = "ENTER SIZE:"
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.Location = New System.Drawing.Point(13, 206)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(88, 13)
+        Me.Label12.TabIndex = 21
+        Me.Label12.Text = "ENTER BRAND:"
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Location = New System.Drawing.Point(13, 174)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(106, 13)
+        Me.Label9.TabIndex = 20
+        Me.Label9.Text = "ENTER CATEGORY"
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Location = New System.Drawing.Point(13, 147)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(81, 13)
+        Me.Label8.TabIndex = 19
+        Me.Label8.Text = "ENTER NAME:"
+        '
+        'txtBranch2
+        '
+        Me.txtBranch2.Location = New System.Drawing.Point(561, 183)
+        Me.txtBranch2.Name = "txtBranch2"
+        Me.txtBranch2.Size = New System.Drawing.Size(295, 20)
+        Me.txtBranch2.TabIndex = 17
+        '
+        'txtSizes2
+        '
+        Me.txtSizes2.Location = New System.Drawing.Point(561, 154)
+        Me.txtSizes2.Name = "txtSizes2"
+        Me.txtSizes2.Size = New System.Drawing.Size(295, 20)
+        Me.txtSizes2.TabIndex = 16
+        '
+        'DataGridView2
+        '
+        Me.DataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DataGridView2.Location = New System.Drawing.Point(10, 231)
+        Me.DataGridView2.Name = "DataGridView2"
+        Me.DataGridView2.Size = New System.Drawing.Size(1069, 367)
+        Me.DataGridView2.TabIndex = 10
+        '
+        'txtBrand2
+        '
+        Me.txtBrand2.Location = New System.Drawing.Point(123, 199)
+        Me.txtBrand2.Name = "txtBrand2"
+        Me.txtBrand2.Size = New System.Drawing.Size(295, 20)
+        Me.txtBrand2.TabIndex = 15
+        '
+        'TxtCategory2
+        '
+        Me.TxtCategory2.Location = New System.Drawing.Point(123, 170)
+        Me.TxtCategory2.Name = "TxtCategory2"
+        Me.TxtCategory2.Size = New System.Drawing.Size(295, 20)
+        Me.TxtCategory2.TabIndex = 12
+        '
+        'txtName2
+        '
+        Me.txtName2.Location = New System.Drawing.Point(123, 144)
+        Me.txtName2.Name = "txtName2"
+        Me.txtName2.Size = New System.Drawing.Size(295, 20)
+        Me.txtName2.TabIndex = 13
+        '
+        'VIEW_BTN_USER
+        '
+        Me.VIEW_BTN_USER.Location = New System.Drawing.Point(904, 180)
+        Me.VIEW_BTN_USER.Name = "VIEW_BTN_USER"
+        Me.VIEW_BTN_USER.Size = New System.Drawing.Size(123, 23)
+        Me.VIEW_BTN_USER.TabIndex = 18
+        Me.VIEW_BTN_USER.Text = "VIEW"
+        Me.VIEW_BTN_USER.UseVisualStyleBackColor = True
         '
         'Label3
         '
@@ -138,14 +236,6 @@ Partial Class FORM1
         Me.Label3.Size = New System.Drawing.Size(681, 55)
         Me.Label3.TabIndex = 0
         Me.Label3.Text = "PRODUCT CATALOG SYSTEM"
-        '
-        'DataGridView2
-        '
-        Me.DataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView2.Location = New System.Drawing.Point(10, 231)
-        Me.DataGridView2.Name = "DataGridView2"
-        Me.DataGridView2.Size = New System.Drawing.Size(1069, 367)
-        Me.DataGridView2.TabIndex = 10
         '
         'Button1
         '
@@ -313,6 +403,7 @@ Partial Class FORM1
         Me.GroupBox2.Controls.Add(Me.txtBranch)
         Me.GroupBox2.Controls.Add(Me.ADD_BTN)
         Me.GroupBox2.Controls.Add(Me.DELETE_BTN)
+        Me.GroupBox2.Controls.Add(Me.txtSearchh)
         Me.GroupBox2.Location = New System.Drawing.Point(16, 8)
         Me.GroupBox2.Name = "GroupBox2"
         Me.GroupBox2.Size = New System.Drawing.Size(1075, 604)
@@ -346,94 +437,12 @@ Partial Class FORM1
         Me.VIEW_BTN.Text = "VIEW"
         Me.VIEW_BTN.UseVisualStyleBackColor = True
         '
-        'TxtCategory2
+        'txtSearchh
         '
-        Me.TxtCategory2.Location = New System.Drawing.Point(123, 170)
-        Me.TxtCategory2.Name = "TxtCategory2"
-        Me.TxtCategory2.Size = New System.Drawing.Size(295, 20)
-        Me.TxtCategory2.TabIndex = 12
-        '
-        'txtName2
-        '
-        Me.txtName2.Location = New System.Drawing.Point(123, 144)
-        Me.txtName2.Name = "txtName2"
-        Me.txtName2.Size = New System.Drawing.Size(295, 20)
-        Me.txtName2.TabIndex = 13
-        '
-        'txtBrand2
-        '
-        Me.txtBrand2.Location = New System.Drawing.Point(123, 199)
-        Me.txtBrand2.Name = "txtBrand2"
-        Me.txtBrand2.Size = New System.Drawing.Size(295, 20)
-        Me.txtBrand2.TabIndex = 15
-        '
-        'txtBranch2
-        '
-        Me.txtBranch2.Location = New System.Drawing.Point(561, 183)
-        Me.txtBranch2.Name = "txtBranch2"
-        Me.txtBranch2.Size = New System.Drawing.Size(295, 20)
-        Me.txtBranch2.TabIndex = 17
-        '
-        'txtSizes2
-        '
-        Me.txtSizes2.Location = New System.Drawing.Point(561, 154)
-        Me.txtSizes2.Name = "txtSizes2"
-        Me.txtSizes2.Size = New System.Drawing.Size(295, 20)
-        Me.txtSizes2.TabIndex = 16
-        '
-        'VIEW_BTN_USER
-        '
-        Me.VIEW_BTN_USER.Location = New System.Drawing.Point(904, 180)
-        Me.VIEW_BTN_USER.Name = "VIEW_BTN_USER"
-        Me.VIEW_BTN_USER.Size = New System.Drawing.Size(123, 23)
-        Me.VIEW_BTN_USER.TabIndex = 18
-        Me.VIEW_BTN_USER.Text = "VIEW"
-        Me.VIEW_BTN_USER.UseVisualStyleBackColor = True
-        '
-        'Label8
-        '
-        Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(13, 147)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(81, 13)
-        Me.Label8.TabIndex = 19
-        Me.Label8.Text = "ENTER NAME:"
-        '
-        'Label9
-        '
-        Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(13, 174)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(106, 13)
-        Me.Label9.TabIndex = 20
-        Me.Label9.Text = "ENTER CATEGORY"
-        '
-        'Label12
-        '
-        Me.Label12.AutoSize = True
-        Me.Label12.Location = New System.Drawing.Point(13, 206)
-        Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(88, 13)
-        Me.Label12.TabIndex = 21
-        Me.Label12.Text = "ENTER BRAND:"
-        '
-        'Label13
-        '
-        Me.Label13.AutoSize = True
-        Me.Label13.Location = New System.Drawing.Point(449, 187)
-        Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(92, 13)
-        Me.Label13.TabIndex = 23
-        Me.Label13.Text = "ENTER BRANCH"
-        '
-        'Label14
-        '
-        Me.Label14.AutoSize = True
-        Me.Label14.Location = New System.Drawing.Point(449, 160)
-        Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(74, 13)
-        Me.Label14.TabIndex = 22
-        Me.Label14.Text = "ENTER SIZE:"
+        Me.txtSearchh.Location = New System.Drawing.Point(631, 370)
+        Me.txtSearchh.Name = "txtSearchh"
+        Me.txtSearchh.Size = New System.Drawing.Size(164, 20)
+        Me.txtSearchh.TabIndex = 33
         '
         'FORM1
         '
@@ -502,4 +511,5 @@ Partial Class FORM1
     Friend WithEvents Label12 As Label
     Friend WithEvents Label9 As Label
     Friend WithEvents Label8 As Label
+    Friend WithEvents txtSearchh As TextBox
 End Class
